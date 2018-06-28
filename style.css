@@ -1,0 +1,190 @@
+/*
+Theme Name: Real Fomento
+Theme URI: www.realfomento.com.br
+Author: Deltta Tecnologia
+Author URI: www.delttatecnologia.com.br
+Description: Este thema doi desenvolvido para a empresa Real Fomento Factoring e fomento.
+Version: 2.0
+Text Domain: RealFomento
+Tags: Fomento, Factoring
+*/
+
+
+body{
+	background-color: #051139;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+a, i{
+	color: #eb8952;
+}
+
+a:hover{
+	color: #eb8952;
+}
+
+.topo{
+	background-color: #eb8952;
+	clip-path: polygon(0 99%, 500% 0%, 0 0);
+	z-index: 99999;
+}
+
+.topo-evolve{
+	background-image: url(img/bg-topo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;]
+	border-bottom: 5px solid #eb8952;
+	clip-path: polygon(0 98%, 500% 0%, 0 0);
+}
+
+.logo-menu-flutuante{
+	background-color: #051139;
+	border-bottom:3px solid #eb8952;
+}
+
+.logo-menu{
+	border-bottom: 3px solid #eb8952;
+}
+
+.top_menu{
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.conteudo-fomento{
+	z-index: -9999;
+}
+
+.menu{
+	float: right;
+	list-style: none;
+	height: 49px;
+	padding-left: 0;
+}
+
+.menu li{
+	display: inline;
+	line-height: 49px;
+}
+
+.menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 5px 15px;
+	border:1px solid rgba(0,0,0,0);
+}
+
+.menu li .active{
+	border: 1px solid #eb8952;
+}
+
+.menu li a:hover{
+	border: 1px solid #eb8952;
+	transition: 0.5s;
+	-webkit-transition: 0,5s;
+}
+
+.titulos{
+	height: 80vh
+}
+
+.titulo-1{
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.titulo-3{
+	color:#ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.titulo-3b{
+	color: #eb8952;
+	text-transform: uppercase;
+}
+
+.negative{
+	top: -8em;	
+}
+
+.imagem-destac{
+	position: relative;
+	background-color: #eb8952;
+	padding: 3px;
+}
+
+.imagem-destac img{
+	width: 100%;
+	height:auto;
+}
+
+.clientes{
+	background-color: #eb8952;
+	-webkit-clip-path: polygon(0 0, 100% 14%, 100% 88%, 0 100%);
+	clip-path: polygon(0 0, 100% 14%, 100% 88%, 0 100%);
+}
+
+.evolve-clientes{
+	background-image: url(img/bg-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-clip-path: polygon(0 3%, 100% 19%, 100% 82%, 0 98%);
+	clip-path: polygon(0 3%, 100% 17%, 100% 85%, 0 98%);
+}
+
+.social{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.social li{
+	display: inline;
+	margin-right: 20px;
+}
+
+
+.social li a i{
+	font-size: 2em;
+}
+
+.social li a i:hover{
+	color: #FFFFFF;
+	font-size: 1.8em;
+	transition: 0.5s;
+}
+
+
+@media (max-width: 767px) { 
+
+	.menu{
+		width: 100%;
+    	overflow-x: scroll;
+    	white-space: nowrap;
+    	margin-top: 15´px;
+    	margin-bottom: 0;
+
+	}
+
+	.negative{
+		top:0;
+	}
+
+ }
